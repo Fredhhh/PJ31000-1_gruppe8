@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Pad-prototype.unity
+- path: Assets/Scenes/Prototype 1. Etasje.unity
   isLoaded: 1
   isActive: 1
