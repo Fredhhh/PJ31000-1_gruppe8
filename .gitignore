@@ -49,8 +49,6 @@ Build
 
 
 # Ignore everything
-/*
-/*/
 
 # OS Stuff
 .DS_Store
@@ -145,3 +143,4 @@ assetservercachev3
 expandedItems
 guidmapper
 CurrentMaximizeLayout.dwlt
+*.meta
