@@ -335,6 +335,74 @@ ModelImporter:
     4300102: 2etasje_baderomsvegg
     4300104: 1etasje_baderom_vegg
     4300106: 2etasje_yttervegg
+    6400000: 1etasje_altan
+    6400002: 1etasje_altan_gjerde
+    6400004: 1etasje_altandor_ramme
+    6400006: 1etasje_baderom_gulv
+    6400008: 1etasje_baderom_vegg
+    6400010: 1etasje_baderomsdor_ramme
+    6400012: 1etasje_baderomsvindu
+    6400014: 1etasje_gang_vindu
+    6400016: 1etasje_gangdor_ramme
+    6400018: 1etasje_gulv
+    6400020: 1etasje_hovedytterdor_ramme
+    6400022: 1etasje_innervegger
+    6400024: 1etasje_kjokken_hjornevindu
+    6400026: 1etasje_kjokken_vindu
+    6400028: 1etasje_stue_altanvindu
+    6400030: 1etasje_stue_dobbeltvindu
+    6400032: 1etasje_stue_hjornevindu
+    6400034: 1etasje_tak
+    6400036: 1etasje_Trapper
+    6400038: 1etasje_vaskeromsdor_ramme
+    6400040: 1etasje_yttervegg
+    6400042: 1etasje_yttervegg_fasade
+    6400044: 2etajse_soverom2_vindu
+    6400046: 2etasje_altan_gjerde
+    6400048: 2etasje_altan_marmorplate
+    6400050: 2etasje_altandor_ramme
+    6400052: 2etasje_altangulv
+    6400054: 2etasje_baderom_gulv
+    6400056: 2etasje_baderomsdor_ramme
+    6400058: 2etasje_baderomsvegg
+    6400060: 2etasje_gulv
+    6400062: 2etasje_innervegger
+    6400064: 2etasje_soverom1_vindu
+    6400066: 2etasje_soverom3_vindu
+    6400068: 2etasje_soverom4_vindu
+    6400070: 2etasje_Soveromsdor1_ramme
+    6400072: 2etasje_Soveromsdor2_ramme
+    6400074: 2etasje_Soveromsdor3_ramme
+    6400076: 2etasje_Soveromsdor4_ramme
+    6400078: 2etasje_tak
+    6400080: 2etasje_ytterkant
+    6400082: 2etasje_yttervegg
+    6400084: Altandor_1etasje
+    6400086: Altandor_2etasje
+    6400088: Baderomsdor2etasje
+    6400090: Baderomsdor_1etasje
+    6400092: Baderomsvindu_2etasje
+    6400094: Baderomsvindu_2etasje 1
+    6400096: Baderomsvindu_2etasje 2
+    6400098: Gangdor
+    6400100: Gress
+    6400102: Hovedytterdor
+    6400104: Kjeller_gulv
+    6400106: Kjeller_tak
+    6400108: Kjeller_vindu
+    6400110: Kjellerdor
+    6400112: Kjellerdor2
+    6400114: Kjellerdor2_ramme
+    6400116: Kjellerdor_ramme
+    6400118: Kjellervegg
+    6400120: Loft_gulv
+    6400122: Soveromsdor1
+    6400124: Soveromsdor2
+    6400126: Soveromsdor3
+    6400128: Soveromsdor4
+    6400130: Stein
+    6400132: Tak
+    6400134: Vaskeromsdor
     9500000: //RootNode
   materials:
     importMaterials: 1
