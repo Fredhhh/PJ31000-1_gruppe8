@@ -1,0 +1,30 @@
+Kjøkken
+- Fliser
+- Benkeplater
+- Hvitevarer
+- Skapfarge
+- Vask
+
+Bad
+- Fliser
+- Skapfarge
+- Vask
+- Hvitevarer
+- Dusj
+
+Vegg
+Gulv
+Dører
+
+Plantegning/kart
+- Etasje
+- Rom
+- Balkong/Terrasse
+- Uteområde
+
+
+Lysendring
+- Dag/natt
+
+
+Totalsum/kostnad av endringer
