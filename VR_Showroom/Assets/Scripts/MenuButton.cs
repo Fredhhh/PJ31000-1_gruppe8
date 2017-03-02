@@ -1,43 +1,19 @@
-﻿#pragma strict
+﻿using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
-var baseName = "Page";
-private var page = 0;
-var lastPage = 100;
-
-function NextPrevPage(nextPage : boolean)
+public class ClickExample : MonoBehaviour
 {
-    var currPage = page;
-
-    if (nextPage)
+    public Button yourButton;
+    public Canvas[] boligSlides;
+    void Start()
     {
-        if (page + 1 > lastPage)
-            return;
-        page++;
-    }
-    else
-    {
-        if (page - 1 < 0)
-            return;
-        page--;
+        /*Button btn = yourButton.GetComponent<Button>();
+        btn.onClick.AddListener(TaskOnClick);*/
     }
 
-    var newPage : Texture = Resources.Load(baseName + page) as Texture;
-    if (newPage != null)
+    void TaskOnClick()
     {
-        var lastPage = renderer.material.mainTexture;
-        renderer.material.mainTexture = newPage;
-        Resources.UnloadAsset(lastPage);
+        Debug.Log("You have clicked the button!");
     }
-    else
-    {
-        page = currPage;
-    }
-}
-
-function OnGUI()
-{
-    if (GUI.Button(Rect(0, 0, 100, 50), "Next"))
-        NextPrevPage(true);
-    if (GUI.Button(Rect(0, 75, 100, 50), "Prev"))
-        NextPrevPage(false);
 }
