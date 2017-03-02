@@ -7,23 +7,21 @@ public class DaylightControl : MonoBehaviour {
 
     public Slider daylightSlider;
     private float daylightSliderIntensity;
-    public Light sun;
-    private float sunIntensity;
 
 
     // Use this for initialization
-    void Start () {
+    void Awake () {
 
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        sunIntensity = sun.GetComponent<Light>().intensity;
-	}
 
-    public void changeDaylight(float newValue)
-    {
-        sunIntensity = newValue;
+        daylightSliderIntensity = daylightSlider.GetComponent<Slider>().value;
+        Vector3 temp = transform.rotation.eulerAngles;
+        temp.x = daylightSliderIntensity * -(10);
+        transform.rotation = Quaternion.Euler(temp);
     }
+
 
 }
