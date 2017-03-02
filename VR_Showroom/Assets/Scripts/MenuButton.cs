@@ -1,19 +1,43 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
-public class ClickExample : MonoBehaviour
+public class MenuButton : MonoBehaviour
 {
-    public Button yourButton;
-    public Canvas[] boligSlides;
+
+    public Canvas mainCanvas;
+    public Canvas bolig1;
+    public Canvas bolig2;
+
+    // Use this for initialization
     void Start()
     {
-        /*Button btn = yourButton.GetComponent<Button>();
-        btn.onClick.AddListener(TaskOnClick);*/
+
     }
 
-    void TaskOnClick()
+    // Update is called once per frame
+    void Update()
     {
-        Debug.Log("You have clicked the button!");
+
+    }
+
+    public void MainChange()
+    {
+        mainCanvas.enabled = true;
+        bolig1.enabled = false;
+        bolig2.enabled = false;
+    }
+
+    public void bolig1Change()
+    {
+        mainCanvas.enabled = false;
+        bolig1.enabled = true;
+        bolig2.enabled = false;
+    }
+
+    public void bolig2Change()
+    {
+        mainCanvas.enabled = false;
+        bolig1.enabled = false;
+        bolig2.enabled = true;
     }
 }
