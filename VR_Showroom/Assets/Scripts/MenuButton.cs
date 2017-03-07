@@ -21,7 +21,7 @@ public class MenuButton : MonoBehaviour
 
     }
 
-    public void MainChange()
+    public void mainChange()
     {
         mainCanvas.enabled = true;
         bolig1.enabled = false;
