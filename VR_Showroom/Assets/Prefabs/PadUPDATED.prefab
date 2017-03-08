@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114491307736120880}
   m_Layer: 0
   m_Name: PadUPDATED
-  m_TagString: Untagged
+  m_TagString: Pad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1520,20 +1520,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1009867192308652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a7e8a5fe98eccd4495d80d5fd4c1e80, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c3df8fe353d65f458d18c7cd82767dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clickDetectorScript:
   - {fileID: 0}
   - {fileID: 0}
+  activeObject: {fileID: 0}
   kitchenWhites:
   - {fileID: 2100000, guid: bd6dc87fadeb62745bb4b5c60ff048aa, type: 2}
-  - {fileID: 2100000, guid: 4203ecc47a20bcf4db20bad204837376, type: 2}
+  - {fileID: 2100000, guid: b662dddf8b221e54ab7833f5d3562089, type: 2}
   - {fileID: 2100000, guid: a65208a23c44b2342920fc4a86aa943a, type: 2}
-  - {fileID: 2100000, guid: 701d2e0c9a30c234e85c9fb6cd54c452, type: 2}
+  - {fileID: 2100000, guid: 4203ecc47a20bcf4db20bad204837376, type: 2}
   kitchenTiles:
-  - {fileID: 2100000, guid: 9b31920f308a8ce4797d8497ac48221b, type: 2}
-  - {fileID: 2100000, guid: 872cf4fb666a5de4b95d5bab78a6da33, type: 2}
+  - {fileID: 2100000, guid: a024313a6aba091489bc856853ee9b3c, type: 2}
+  - {fileID: 2100000, guid: d95643deb9c7735409a73862bbc2bc30, type: 2}
   couch: []
   mainWall: []
   mainFloor: []
@@ -1542,7 +1543,7 @@ MonoBehaviour:
   content: {fileID: 224915425643713950}
   texturePF: {fileID: 224698145957744996, guid: 9d8f27b01b7e785419b4dd4c4f6acb03,
     type: 2}
-  changeableObject: {fileID: 0}
+  i: 0
 --- !u!114 &114491828270563808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1589,7 +1590,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1009867192308652}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7bdd437ea374b0f4a960f1210f9eaf85, type: 3}
   m_Name: 

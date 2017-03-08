@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ClickDetector : MonoBehaviour {
 
+	public GameObject library;
+
     public bool clicked;
 
     public bool kitchenWhites;
@@ -12,7 +14,7 @@ public class ClickDetector : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-
+		library = GameObject.FindGameObjectWithTag ("Pad");
     }
 
     // Update is called once per frame
@@ -25,27 +27,25 @@ public class ClickDetector : MonoBehaviour {
 
     }
 
-    public void OnMouseDown()
+	public void OnMouseDown()
     {
+		library.GetComponent<MatLibrary>().activeObject = gameObject;
+
         clicked = true;
 
         if (tag.Equals("KitchenWhites"))
         {
             kitchenTiles = false;
             kitchenWhites = true;
-            transform.tag = "KitchenWhites";
         }
 
         else if (tag.Equals("KitchenTiles"))
         {
             kitchenWhites = false;
             kitchenTiles = true;
-            transform.tag = "ChangeableObject";
-
         }
 
     }
-    
-
+   
 }
 

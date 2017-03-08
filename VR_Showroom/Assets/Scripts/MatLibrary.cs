@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class MatLibrary : MonoBehaviour {
 
     public ClickDetector[] clickDetectorScript;
+	public GameObject activeObject;
 
     public Material[] kitchenWhites;
     public Material[] kitchenTiles;
@@ -17,7 +18,6 @@ public class MatLibrary : MonoBehaviour {
 
     public RectTransform content;
     public RectTransform texturePF;
-    Button button;
     RawImage image;
     Renderer material;
 
@@ -27,8 +27,6 @@ public class MatLibrary : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
-        button = texturePF.GetComponent<Button>();
         image = texturePF.GetComponent<RawImage>();
         material = texturePF.GetComponent<Renderer>();
     }
@@ -55,11 +53,8 @@ public class MatLibrary : MonoBehaviour {
 
                     Instantiate(texturePF, content, false);
                 }
-                clickDetectorScript[i].transform.tag = "ChangeableObject";
+           
             }
-
-            
-
             else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].kitchenTiles == true)
             {
                 DeleteCurrentMat();
@@ -73,15 +68,10 @@ public class MatLibrary : MonoBehaviour {
 
                     Instantiate(texturePF, content, false);
                 }
-                clickDetectorScript[i].transform.tag = "ChangeableObject";
-            }
-
-           
+        
+            }	     
             clickDetectorScript[i].clicked = false;
-            
-
         }
-       
 
     }
 
