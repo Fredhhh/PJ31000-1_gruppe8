@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Kitchen
+  - TeleportIgnore
+  - ChangeableObject
+  - ChangeableMaterial
+  - KitchenWhites
+  - KitchenTiles
+  - Pad
   layers:
   - Default
   - TransparentFX
@@ -15,7 +21,7 @@ TagManager:
   - 
   - 
   - World UI
-  - 
+  - Furniture
   - 
   - 
   - 
