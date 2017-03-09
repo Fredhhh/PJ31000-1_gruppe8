@@ -1185,6 +1185,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: ae3022c7cbafbea41ba9f583cb18602b, type: 3}
   - {fileID: 2800000, guid: 8a0c93fe4a166fe4fa624b07ad9f73fb, type: 3}
   boligRamme: {fileID: 332954903}
+  i: 0
 --- !u!224 &608147712
 RectTransform:
   m_ObjectHideFlags: 0
