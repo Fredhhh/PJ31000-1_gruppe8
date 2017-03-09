@@ -30,6 +30,7 @@ public class ClickDetector : MonoBehaviour {
 	public void OnMouseDown()
     {
 		library.GetComponent<MatLibrary>().activeObject = gameObject;
+        library.GetComponent<PadBehaviour>().MaterialMenuChange();
 
         clicked = true;
 
