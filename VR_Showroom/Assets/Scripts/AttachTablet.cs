@@ -17,9 +17,11 @@ public class AttachTablet : MonoBehaviour
 		if (other.gameObject.tag.Equals("Hand1")) {
 			transform.SetParent (Hand1.transform);
 			leftHand = true;
+            rightHand = false;
 		} else if (other.gameObject.tag.Equals("Hand2")) {
 			transform.SetParent(Hand2.transform);
 			rightHand = true;
+            leftHand = false;
 		}
 	
 	}
