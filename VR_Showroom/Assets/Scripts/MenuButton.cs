@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MenuButton : MonoBehaviour
 {
+    public Texture2D[] boliger;
+    public RawImage boligRamme;
+    int i;
 
-    public Canvas mainCanvas;
-    public Canvas bolig1;
-    public Canvas bolig2;
-    public Canvas bolig3;
-
-    // Use this for initialization
+    // Use this for initialization1
     void Start()
     {
 
@@ -21,35 +20,12 @@ public class MenuButton : MonoBehaviour
 
     }
 
-    public void mainChange()
+    public void boligChange()
     {
-        mainCanvas.enabled = true;
-        bolig1.enabled = false;
-        bolig2.enabled = false;
-        bolig3.enabled = false;
+        for (i = 0; i < boliger.Length; i++)
+        {
+            boligRamme.GetComponent<RawImage>().texture = boliger[i];
+        }
     }
 
-    public void bolig1Change()
-    {
-        mainCanvas.enabled = false;
-        bolig1.enabled = true;
-        bolig2.enabled = false;
-        bolig3.enabled = false;
-    }
-
-    public void bolig2Change()
-    {
-        mainCanvas.enabled = false;
-        bolig1.enabled = false;
-        bolig2.enabled = true;
-        bolig3.enabled = false;
-    }
-
-    public void bolig3Change()
-    {
-        mainCanvas.enabled = false;
-        bolig1.enabled = false;
-        bolig2.enabled = false;
-        bolig3.enabled = true;
-    }
 }
