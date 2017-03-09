@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1462510828}
-  m_IndirectSpecularColor: {r: 0.17280021, g: 0.21593603, b: 0.29787707, a: 1}
+  m_IndirectSpecularColor: {r: 0.17279987, g: 0.21593523, b: 0.29787594, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -180,6 +180,35 @@ GameObject:
   m_PrefabParentObject: {fileID: 1287231691322004, guid: 7eadaff88a0dab8469a96001635fb690,
     type: 2}
   m_PrefabInternal: {fileID: 1558855057}
+--- !u!21 &164892262
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: PixelSnap
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &222197413
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,35 +335,6 @@ Transform:
   m_Father: {fileID: 688539130}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!21 &424475858
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  m_SavedProperties:
-    serializedVersion: 2
-    m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - first:
-        name: PixelSnap
-      second: 0
-    m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &441513206
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,12 +609,12 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 424475858}
+      objectReference: {fileID: 164892262}
     - target: {fileID: 33708601561825462, guid: cf6d7649a56474242b0547d04e56f228,
         type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 951896177}
+      objectReference: {fileID: 999901540}
     - target: {fileID: 114007193496728712, guid: cf6d7649a56474242b0547d04e56f228,
         type: 2}
       propertyPath: m_FirstSelected
@@ -664,10 +664,19 @@ Prefab:
       propertyPath: pointer
       value: 
       objectReference: {fileID: 109954, guid: fb2f1dd059eb2ee48b1005209155582b, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 1237046792436354, guid: cf6d7649a56474242b0547d04e56f228, type: 2}
+      propertyPath: m_TagString
+      value: Hand1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294255993308944, guid: cf6d7649a56474242b0547d04e56f228, type: 2}
+      propertyPath: m_TagString
+      value: Hand2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114939942820932848, guid: cf6d7649a56474242b0547d04e56f228, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cf6d7649a56474242b0547d04e56f228, type: 2}
   m_IsPrefabParent: 0
---- !u!43 &951896177
+--- !u!43 &999901540
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1127,12 +1136,12 @@ Prefab:
     - target: {fileID: 224679253310565510, guid: 7eadaff88a0dab8469a96001635fb690,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224634509476045768, guid: 7eadaff88a0dab8469a96001635fb690,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7eadaff88a0dab8469a96001635fb690, type: 2}
