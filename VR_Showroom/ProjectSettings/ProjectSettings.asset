@@ -527,7 +527,7 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   cloudProjectId: 14451f58-b900-48f7-92ad-3762fa4d0275
   projectName: VR_Showroom
