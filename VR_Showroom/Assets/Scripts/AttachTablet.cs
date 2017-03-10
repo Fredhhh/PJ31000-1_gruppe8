@@ -12,28 +12,19 @@ public class AttachTablet : MonoBehaviour
 	public bool leftHand;
 	public bool rightHand;
 
-    void start ()
+    void Update ()
     {
         Hand1 = GameObject.FindGameObjectWithTag("Hand1");
         Hand2 = GameObject.FindGameObjectWithTag("Hand2");
+		gameObject.transform.SetParent(Hand1.transform);
     }
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (other.gameObject.tag.Equals("Hand1")) {
-			transform.SetParent (Hand1.transform);
-
-            Hand1 = Hand1;
-            Hand2 = Hand2;
-            
+		if (other.gameObject.tag.Equals("Hand1")) {        
 			leftHand = true;
             rightHand = false;
 		} else if (other.gameObject.tag.Equals("Hand2")) {
-			transform.SetParent(Hand2.transform);
-
-            Hand2 = Hand1;
-            Hand1 = Hand2;
-
             rightHand = true;
             leftHand = false;
 		}
