@@ -10,8 +10,8 @@ public class MatLibrary : MonoBehaviour {
 
     public Material[] kitchenWhites;
     public Material[] kitchenTiles;
-    public Material[] couch;
-    public Material[] mainWall;
+    public Material[] couch1;
+    public Material[] mainWalls;
     public Material[] mainFloor;
     public Material[] bathroomTilesWall;
     public Material[] bathroomTilesFloor;
@@ -52,8 +52,7 @@ public class MatLibrary : MonoBehaviour {
                     material.enabled = false;
 
                     Instantiate(texturePF, content, false);
-                }
-           
+                }  
             }
             else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].kitchenTiles == true)
             {
@@ -68,8 +67,55 @@ public class MatLibrary : MonoBehaviour {
 
                     Instantiate(texturePF, content, false);
                 }
-        
             }	     
+			else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].mainFloor == true)
+			{
+				DeleteCurrentMat();
+
+				foreach (Material mat in mainFloor)
+				{
+					image.texture = mat.mainTexture;
+					image.color = mat.color;
+					material.material = mat;
+					material.enabled = false;
+
+					Instantiate(texturePF, content, false);
+				}
+			}	     
+			else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].mainWalls == true)
+			{
+				DeleteCurrentMat();
+
+				foreach (Material mat in mainWalls)
+				{
+					image.texture = mat.mainTexture;
+					image.color = mat.color;
+					material.material = mat;
+					material.enabled = false;
+
+					Instantiate(texturePF, content, false);
+				}
+			}
+			else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].couch1 == true)
+			{
+				DeleteCurrentMat();
+
+				foreach (Material mat in couch1)
+				{
+					image.texture = mat.mainTexture;
+					image.color = mat.color;
+					material.material = mat;
+					material.enabled = false;
+
+					Instantiate(texturePF, content, false);
+				}
+			}	     
+
+
+
+
+
+
             clickDetectorScript[i].clicked = false;
         }
 

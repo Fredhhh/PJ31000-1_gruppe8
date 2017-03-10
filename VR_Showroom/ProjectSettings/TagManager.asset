@@ -12,6 +12,10 @@ TagManager:
   - KitchenTiles
   - Pad
   - ChangeableMaterial
+  - Floor
+  - MainFloor
+  - MainWalls
+  - Couch1
   layers:
   - Default
   - TransparentFX
