@@ -1313,6 +1313,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1689105548430908, guid: 7fc801fa974ec0f4e92e681eadb9a681, type: 2}
+      propertyPath: m_Name
+      value: Balcony1SP
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7fc801fa974ec0f4e92e681eadb9a681, type: 2}
   m_IsPrefabParent: 0
@@ -1598,12 +1602,12 @@ Prefab:
     - target: {fileID: 224679253310565510, guid: 7eadaff88a0dab8469a96001635fb690,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224634509476045768, guid: 7eadaff88a0dab8469a96001635fb690,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1125097888879538, guid: 7eadaff88a0dab8469a96001635fb690, type: 2}
       propertyPath: m_IsActive
