@@ -11,13 +11,15 @@ public class ClickDetector : MonoBehaviour {
 
     public bool kitchenWhites;
     public bool kitchenTiles;
-	public bool mainFloor;
-	public bool mainWalls;
-	public bool couch1;
 
     // Use this for initialization
     void Start() {
 		library = GameObject.FindGameObjectWithTag ("Pad");
+    }
+
+    // Update is called once per frame
+    void Update() {
+
     }
 
     public void OnMouseEnter()
@@ -28,30 +30,20 @@ public class ClickDetector : MonoBehaviour {
 	public void OnMouseDown()
     {
 		library.GetComponent<MatLibrary>().activeObject = gameObject;
-        library.GetComponent<PadBehaviour>().MaterialMenuChange();
 
         clicked = true;
 
         if (tag.Equals("KitchenWhites"))
         {
+            kitchenTiles = false;
             kitchenWhites = true;
         }
+
         else if (tag.Equals("KitchenTiles"))
         {
+            kitchenWhites = false;
             kitchenTiles = true;
         }
-		else if (tag.Equals("MainFloor"))
-		{
-			mainFloor = true;
-		}
-		else if (tag.Equals("MainWalls"))
-		{
-			mainWalls = true;
-		}
-		else if (tag.Equals("Couch1"))
-		{
-			couch1 = true;
-		}
 
     }
    
