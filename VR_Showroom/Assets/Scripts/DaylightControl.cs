@@ -19,8 +19,8 @@ public class DaylightControl : MonoBehaviour {
 
         daylightSliderIntensity = daylightSlider.GetComponent<Slider>().value;
 
-        float exposureValue = daylightSliderIntensity + 10;
-        RenderSettings.skybox.SetFloat("_Exposure", 0 - (0.05f));
+        float exposureValue = daylightSliderIntensity + -(12);
+        RenderSettings.skybox.SetFloat("_Exposure", -(0.03f) * exposureValue);
 
         Vector3 temp = transform.rotation.eulerAngles;
         temp.x = daylightSliderIntensity * -(10);
