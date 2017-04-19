@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f4785a2a6bdb1e945a4845403ac136cb
+timeCreated: 1489075909
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Fedra Sans Std
+  fontNames:
+  - Fedra Sans Std
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
