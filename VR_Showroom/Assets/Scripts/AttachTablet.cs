@@ -6,16 +6,21 @@ using System.Collections.Generic;
 public class AttachTablet : MonoBehaviour
 {
 
-    public GameObject Hand1;
-	public GameObject Hand2;
+    GameObject Hand1;
+	GameObject Hand2;
 
 	public bool leftHand;
 	public bool rightHand;
 
+	void Start()
+	{
+		
+	}
+
     void Update ()
     {
-        Hand1 = GameObject.FindGameObjectWithTag("Hand1");
-        Hand2 = GameObject.FindGameObjectWithTag("Hand2");
+		Hand1 = GameObject.FindGameObjectWithTag("Hand1");
+		Hand2 = GameObject.FindGameObjectWithTag("Hand2");
 		gameObject.transform.SetParent(Hand1.transform);
     }
 
