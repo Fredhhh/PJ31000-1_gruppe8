@@ -546,6 +546,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &373248574
 Prefab:
   m_ObjectHideFlags: 0
@@ -639,6 +640,8 @@ MonoBehaviour:
   flipped: 0
   rotated: 0
 >>>>>>> refs/remotes/origin/Frederic
+=======
+>>>>>>> parent of a10a56a... Merge remote-tracking branch 'refs/remotes/origin/Vilde'
 =======
 >>>>>>> parent of a10a56a... Merge remote-tracking branch 'refs/remotes/origin/Vilde'
 --- !u!1001 &400019337
@@ -3148,6 +3151,7 @@ Transform:
   - {fileID: 1867005309}
   m_Father: {fileID: 0}
   m_RootOrder: 13
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1449199037
 GameObject:
@@ -3177,6 +3181,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1237052675}
   m_RootOrder: 8
+=======
+>>>>>>> parent of a10a56a... Merge remote-tracking branch 'refs/remotes/origin/Vilde'
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!215 &1449199039
 ReflectionProbe:
@@ -4104,6 +4110,7 @@ Prefab:
   m_IsPrefabParent: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1521212781
 Prefab:
   m_ObjectHideFlags: 0
@@ -4177,6 +4184,8 @@ Material:
         name: _Color
       second: {r: 1, g: 1, b: 1, a: 1}
 >>>>>>> refs/remotes/origin/Frederic
+=======
+>>>>>>> parent of a10a56a... Merge remote-tracking branch 'refs/remotes/origin/Vilde'
 =======
 >>>>>>> parent of a10a56a... Merge remote-tracking branch 'refs/remotes/origin/Vilde'
 --- !u!1001 &1577768800
