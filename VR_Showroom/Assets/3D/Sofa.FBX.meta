@@ -1,37 +1,39 @@
 fileFormatVersion: 2
-guid: 9d7193dc50efd024dab3c9730ac1bcef
-timeCreated: 1492690123
+guid: 9dea2d6c363c81f4195f7fd0ac386e15
+timeCreated: 1492696957
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Duvet
-    100004: Large_bed 1
-    100006: Pillow001
-    100008: Pillow002
-    100010: Pillow003
-    400000: //RootNode
-    400002: Duvet
-    400004: Large_bed 1
-    400006: Pillow001
-    400008: Pillow002
-    400010: Pillow003
-    2300000: Duvet
-    2300002: Large_bed 1
-    2300004: Pillow001
-    2300006: Pillow002
-    2300008: Pillow003
-    3300000: Duvet
-    3300002: Large_bed 1
-    3300004: Pillow001
-    3300006: Pillow002
-    3300008: Pillow003
-    4300000: Pillow001
-    4300002: Pillow002
-    4300004: Pillow003
-    4300006: Duvet
-    4300008: Large_bed
+    100000: Group_003
+    100002: Group_007
+    100004: Group_014
+    100006: Group_024
+    100008: Group_027
+    100010: Group_035
+    100012: Group_038
+    100014: Group_040
+    100016: //RootNode
+    100018: Sofa_legs
+    400000: Group_003
+    400002: Group_007
+    400004: Group_014
+    400006: Group_024
+    400008: Group_027
+    400010: Group_035
+    400012: Group_038
+    400014: Group_040
+    400016: //RootNode
+    400018: Sofa_legs
+    2300000: Group_014
+    2300002: Group_040
+    2300004: Sofa_legs
+    3300000: Group_014
+    3300002: Group_040
+    3300004: Sofa_legs
+    4300000: Group_014
+    4300002: Group_040
+    4300004: Sofa_legs
   materials:
     importMaterials: 1
     materialName: 0
@@ -61,7 +63,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
