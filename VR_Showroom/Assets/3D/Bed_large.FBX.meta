@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: 9d7193dc50efd024dab3c9730ac1bcef
-timeCreated: 1492690123
+guid: 667d4093f0a7a4846b5d6cf3114f04b1
+timeCreated: 1492622188
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
     100002: Duvet
-    100004: Large_bed 1
+    100004: Large_bed
     100006: Pillow001
     100008: Pillow002
     100010: Pillow003
     400000: //RootNode
     400002: Duvet
-    400004: Large_bed 1
+    400004: Large_bed
     400006: Pillow001
     400008: Pillow002
     400010: Pillow003
     2300000: Duvet
-    2300002: Large_bed 1
+    2300002: Large_bed
     2300004: Pillow001
     2300006: Pillow002
     2300008: Pillow003
     3300000: Duvet
-    3300002: Large_bed 1
+    3300002: Large_bed
     3300004: Pillow001
     3300006: Pillow002
     3300008: Pillow003
-    4300000: Pillow001
-    4300002: Pillow002
-    4300004: Pillow003
-    4300006: Duvet
-    4300008: Large_bed
+    4300000: Large_bed
+    4300002: Pillow001
+    4300004: Pillow002
+    4300006: Pillow003
+    4300008: Duvet
   materials:
     importMaterials: 1
     materialName: 0
