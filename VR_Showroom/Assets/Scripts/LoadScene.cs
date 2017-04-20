@@ -4,16 +4,22 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 		
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
-       SceneManager.LoadScene("1");
 
+    // Update is called once per frame
+    void OnTriggerEnter(Collider other) {
+
+        if (other.gameObject.tag.Equals("Player"))
+        {
+            SceneManager.LoadScene("MainScene");
+           
+        }
+    
     }
 }
