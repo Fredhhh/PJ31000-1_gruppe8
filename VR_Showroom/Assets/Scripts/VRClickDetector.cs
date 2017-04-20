@@ -5,7 +5,9 @@ using UnityEngine;
 public class VRClickDetector : MonoBehaviour {
 
 	public ClickDetector _furniture;
-	public LayerMask myLayerMask;
+	public Lightswitcher _lightSwitch;
+	public LayerMask myLayerMask1;
+	public LayerMask myLayerMask2;
 	SteamVR_TrackedController controller;
 
 	// Use this for initialization
@@ -28,14 +30,18 @@ public class VRClickDetector : MonoBehaviour {
 	void Select(object sender, ClickedEventArgs e) 
 	{  
 		RaycastHit _hit; 
-		if (Physics.Raycast(transform.position, transform.forward * 10, out _hit, 20.0f, myLayerMask)) 
+		if (Physics.Raycast(transform.position, transform.forward * 10, out _hit, 20.0f, myLayerMask1)) 
 		{ 
-			Debug.Log("Fired");
 			_furniture = _hit.collider.gameObject.GetComponent<ClickDetector>();
-
-			_furniture.GetComponent<ClickDetector> ().OnMouseDown();
-
+			_furniture.GetComponent<ClickDetector>().OnMouseDown();
 		} 
+
+		else if (Physics.Raycast(transform.position, transform.forward * 10, out _hit, 20.0f, myLayerMask2))
+		{
+			_lightSwitch = _hit.collider.gameObject.GetComponent<Lightswitcher>();
+			_lightSwitch.GetComponent<Lightswitcher>().OnMouseDown();
+
+		}
 
 	}
 		

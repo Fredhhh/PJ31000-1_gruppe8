@@ -5,9 +5,9 @@ public class Lightswitcher : MonoBehaviour
 {
 
 
-
-    public GameObject light;
-    public GameObject light2;
+	public GameObject[] lights;
+    //public GameObject light;
+    //public GameObject light2;
  
 
     public bool on;
@@ -18,8 +18,11 @@ public class Lightswitcher : MonoBehaviour
 
 
         on = true;
-        light.GetComponent<Light>().enabled = true;
-        light2.GetComponent<Light>().enabled = true;
+		foreach (GameObject light in lights) {
+			light.GetComponent<Light>().enabled = true;
+		}
+        //light.GetComponent<Light>().enabled = true;
+        //light2.GetComponent<Light>().enabled = true;
 
 
     }
@@ -32,14 +35,18 @@ public class Lightswitcher : MonoBehaviour
 
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
-
+		Debug.Log ("test");
         if (on == true)
         {
             on = false;
-            light.GetComponent<Light>().enabled = false;
-            light2.GetComponent<Light>().enabled = false;
+
+			foreach (GameObject light in lights) {
+				light.GetComponent<Light>().enabled = false;
+			}
+            //light.GetComponent<Light>().enabled = false;
+            //light2.GetComponent<Light>().enabled = false;
 
 
         }
@@ -47,8 +54,12 @@ public class Lightswitcher : MonoBehaviour
         else if (on == false)
         {
             on = true;
-            light.GetComponent<Light>().enabled = true;
-            light2.GetComponent<Light>().enabled = true;
+
+			foreach (GameObject light in lights) {
+				light.GetComponent<Light>().enabled = true;
+			}
+            //light.GetComponent<Light>().enabled = true;
+            //light2.GetComponent<Light>().enabled = true;
 
         }
     }
