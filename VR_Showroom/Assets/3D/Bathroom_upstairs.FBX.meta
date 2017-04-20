@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 0f26d644802862a48b4634b49c68d705
-timeCreated: 1492623104
+guid: 86637a32909f5264f88c514968d2af12
+timeCreated: 1492689085
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -8,30 +8,35 @@ ModelImporter:
     100000: //RootNode
     100002: Bathtub
     100004: Mirror_upstairs
-    100006: Sink_plate
-    100008: Sink_upstairs
-    100010: Toilet_upstairs
+    100006: Sink
+    100008: Sink_plate
+    100010: Sink_upstairs
+    100012: Toilet_upstairs
     400000: //RootNode
     400002: Bathtub
     400004: Mirror_upstairs
-    400006: Sink_plate
-    400008: Sink_upstairs
-    400010: Toilet_upstairs
+    400006: Sink
+    400008: Sink_plate
+    400010: Sink_upstairs
+    400012: Toilet_upstairs
     2300000: Bathtub
     2300002: Mirror_upstairs
-    2300004: Sink_plate
-    2300006: Sink_upstairs
-    2300008: Toilet_upstairs
+    2300004: Sink
+    2300006: Sink_plate
+    2300008: Sink_upstairs
+    2300010: Toilet_upstairs
     3300000: Bathtub
     3300002: Mirror_upstairs
-    3300004: Sink_plate
-    3300006: Sink_upstairs
-    3300008: Toilet_upstairs
+    3300004: Sink
+    3300006: Sink_plate
+    3300008: Sink_upstairs
+    3300010: Toilet_upstairs
     4300000: Toilet_upstairs
     4300002: Bathtub
     4300004: Sink_upstairs
     4300006: Mirror_upstairs
     4300008: Sink_plate
+    4300010: Sink
   materials:
     importMaterials: 1
     materialName: 0
