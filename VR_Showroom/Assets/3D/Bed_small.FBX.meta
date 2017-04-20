@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 996aa9d860addc649b533b2d695afdf9
-timeCreated: 1492622196
+timeCreated: 1492711170
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -8,20 +8,20 @@ ModelImporter:
     100000: //RootNode
     100002: Duvet_small
     100004: Pillow
-    100006: Small_bed
+    100006: Small_bed 1
     400000: //RootNode
     400002: Duvet_small
     400004: Pillow
-    400006: Small_bed
+    400006: Small_bed 1
     2300000: Duvet_small
     2300002: Pillow
-    2300004: Small_bed
+    2300004: Small_bed 1
     3300000: Duvet_small
     3300002: Pillow
-    3300004: Small_bed
-    4300000: Small_bed
-    4300002: Pillow
-    4300004: Duvet_small
+    3300004: Small_bed 1
+    4300000: Pillow
+    4300002: Duvet_small
+    4300004: Small_bed
   materials:
     importMaterials: 1
     materialName: 0
@@ -51,7 +51,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
