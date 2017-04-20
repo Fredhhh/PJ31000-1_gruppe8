@@ -16,6 +16,8 @@ TagManager:
   - MainFloor
   - MainWalls
   - Couch1
+  - FxTemporaire
+  - projectile
   layers:
   - Default
   - TransparentFX
@@ -27,7 +29,7 @@ TagManager:
   - 
   - World UI
   - Furniture
-  - 
+  - LightSwitch
   - 
   - 
   - 
