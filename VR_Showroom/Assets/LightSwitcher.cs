@@ -16,8 +16,8 @@ public class LightSwitcher : MonoBehaviour
     {
 
 
-        on = false;
-        light.GetComponent<Light>().enabled = false;
+        on = true;
+        light.GetComponent<Light>().enabled = true;
 
 
     }
