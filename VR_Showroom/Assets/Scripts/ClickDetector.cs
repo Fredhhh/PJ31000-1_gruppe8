@@ -14,6 +14,7 @@ public class ClickDetector : MonoBehaviour {
 	public bool mainFloor;
 	public bool mainWalls;
 	public bool couch1;
+    public bool windowSills;
 
     // Use this for initialization
     void Start() {
@@ -27,7 +28,8 @@ public class ClickDetector : MonoBehaviour {
 
 	public void OnMouseDown()
     {
-		library.GetComponent<MatLibrary>().activeObject = gameObject;
+        
+        library.GetComponent<MatLibrary>().activeObject = gameObject;
         library.GetComponent<PadBehaviour>().MaterialMenuChange();
 
         clicked = true;
@@ -52,6 +54,10 @@ public class ClickDetector : MonoBehaviour {
 		{
 			couch1 = true;
 		}
+        else if (tag.Equals("WindowSill"))
+        {
+            windowSills = true;
+        }
 
     }
    

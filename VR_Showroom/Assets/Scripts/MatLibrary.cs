@@ -9,7 +9,7 @@ public class MatLibrary : MonoBehaviour {
 	public GameObject activeObject;
 
     public Material[] kitchenWhites;
-    public Material[] kitchenTiles;
+    public Material[] windowSills;
     public Material[] couch1;
     public Material[] mainWalls;
     public Material[] mainFloor;
@@ -54,11 +54,11 @@ public class MatLibrary : MonoBehaviour {
                     Instantiate(texturePF, content, false);
                 }  
             }
-            else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].kitchenTiles == true)
+            else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].windowSills == true)
             {
                 DeleteCurrentMat();
 
-                foreach (Material mat in kitchenTiles)
+                foreach (Material mat in windowSills)
                 {
                     image.texture = mat.mainTexture;
                     image.color = mat.color;

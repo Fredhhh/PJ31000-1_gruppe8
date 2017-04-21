@@ -9,7 +9,6 @@ TagManager:
   - Hand1
   - Hand2
   - KitchenWhites
-  - KitchenTiles
   - Pad
   - ChangeableMaterial
   - Floor
@@ -18,6 +17,7 @@ TagManager:
   - Couch1
   - FxTemporaire
   - projectile
+  - WindowSill
   layers:
   - Default
   - TransparentFX

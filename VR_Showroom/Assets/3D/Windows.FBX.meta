@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 538ef793673b73e4088143f7291158fb
+timeCreated: 1492794100
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1etasje_altandor_ramme
+    100002: 1etasje_baderomsvindu
+    100004: 1etasje_gang_vindu
+    100006: 1etasje_kjokken_hjornevindu
+    100008: 1etasje_kjokken_vindu
+    100010: 1etasje_stue_altanvindu
+    100012: 1etasje_stue_dobbeltvindu
+    100014: 1etasje_stue_hjornevindu
+    100016: 2etajse_soverom2_vindu
+    100018: 2etasje_altandor_ramme
+    100020: 2etasje_baderomsvindu
+    100022: 2etasje_soverom1_vindu
+    100024: 2etasje_soverom3_vindu
+    100026: 2etasje_soverom4_vindu
+    100028: Baderomsvindu_2etasje
+    100030: Baderomsvindu_2etasje 1
+    100032: Baderomsvindu_2etasje 2
+    100034: //RootNode
+    100036: Windows
+    100038: Windows001
+    100040: Windows002
+    100042: Windows003
+    100044: Windows004
+    100046: Windows005
+    100048: Windows006
+    100050: Windows007
+    100052: Windows008
+    100054: Windows009
+    100056: Windows010
+    100058: Windows011
+    100060: Windows012
+    100062: Windows013
+    100064: Windows014
+    100066: Windows015
+    100068: Altandor_1etasje
+    400000: 1etasje_altandor_ramme
+    400002: 1etasje_baderomsvindu
+    400004: 1etasje_gang_vindu
+    400006: 1etasje_kjokken_hjornevindu
+    400008: 1etasje_kjokken_vindu
+    400010: 1etasje_stue_altanvindu
+    400012: 1etasje_stue_dobbeltvindu
+    400014: 1etasje_stue_hjornevindu
+    400016: 2etajse_soverom2_vindu
+    400018: 2etasje_altandor_ramme
+    400020: 2etasje_baderomsvindu
+    400022: 2etasje_soverom1_vindu
+    400024: 2etasje_soverom3_vindu
+    400026: 2etasje_soverom4_vindu
+    400028: Baderomsvindu_2etasje
+    400030: Baderomsvindu_2etasje 1
+    400032: Baderomsvindu_2etasje 2
+    400034: Windows
+    400036: //RootNode
+    400038: Windows001
+    400040: Windows002
+    400042: Windows003
+    400044: Windows004
+    400046: Windows005
+    400048: Windows006
+    400050: Windows007
+    400052: Windows008
+    400054: Windows009
+    400056: Windows010
+    400058: Windows011
+    400060: Windows012
+    400062: Windows013
+    400064: Windows014
+    400066: Windows015
+    400068: Altandor_1etasje
+    2300000: 1etasje_altandor_ramme
+    2300002: 1etasje_baderomsvindu
+    2300004: 1etasje_gang_vindu
+    2300006: 1etasje_kjokken_hjornevindu
+    2300008: 1etasje_kjokken_vindu
+    2300010: 1etasje_stue_altanvindu
+    2300012: 1etasje_stue_dobbeltvindu
+    2300014: 1etasje_stue_hjornevindu
+    2300016: 2etajse_soverom2_vindu
+    2300018: 2etasje_altandor_ramme
+    2300020: 2etasje_soverom1_vindu
+    2300022: 2etasje_soverom3_vindu
+    2300024: 2etasje_soverom4_vindu
+    2300026: Baderomsvindu_2etasje
+    2300028: Baderomsvindu_2etasje 1
+    2300030: Baderomsvindu_2etasje 2
+    2300032: Windows
+    2300034: Windows001
+    2300036: Windows002
+    2300038: Windows003
+    2300040: Windows004
+    2300042: Windows005
+    2300044: Windows006
+    2300046: Windows007
+    2300048: Windows008
+    2300050: Windows009
+    2300052: Windows010
+    2300054: Windows011
+    2300056: Windows012
+    2300058: Windows013
+    2300060: Windows014
+    2300062: Windows015
+    2300064: Altandor_1etasje
+    3300000: 1etasje_altandor_ramme
+    3300002: 1etasje_baderomsvindu
+    3300004: 1etasje_gang_vindu
+    3300006: 1etasje_kjokken_hjornevindu
+    3300008: 1etasje_kjokken_vindu
+    3300010: 1etasje_stue_altanvindu
+    3300012: 1etasje_stue_dobbeltvindu
+    3300014: 1etasje_stue_hjornevindu
+    3300016: 2etajse_soverom2_vindu
+    3300018: 2etasje_altandor_ramme
+    3300020: 2etasje_soverom1_vindu
+    3300022: 2etasje_soverom3_vindu
+    3300024: 2etasje_soverom4_vindu
+    3300026: Baderomsvindu_2etasje
+    3300028: Baderomsvindu_2etasje 1
+    3300030: Baderomsvindu_2etasje 2
+    3300032: Windows
+    3300034: Windows001
+    3300036: Windows002
+    3300038: Windows003
+    3300040: Windows004
+    3300042: Windows005
+    3300044: Windows006
+    3300046: Windows007
+    3300048: Windows008
+    3300050: Windows009
+    3300052: Windows010
+    3300054: Windows011
+    3300056: Windows012
+    3300058: Windows013
+    3300060: Windows014
+    3300062: Windows015
+    3300064: Altandor_1etasje
+    4300000: 1etasje_altandor_ramme
+    4300002: 1etasje_kjokken_vindu
+    4300004: 1etasje_gang_vindu
+    4300006: 1etasje_baderomsvindu
+    4300008: 1etasje_stue_dobbeltvindu
+    4300010: 1etasje_stue_altanvindu
+    4300012: 1etasje_stue_hjornevindu
+    4300014: 2etasje_soverom4_vindu
+    4300016: 2etasje_soverom3_vindu
+    4300018: 2etajse_soverom2_vindu
+    4300020: 2etasje_soverom1_vindu
+    4300022: 1etasje_kjokken_hjornevindu
+    4300024: 2etasje_altandor_ramme
+    4300026: Baderomsvindu_2etasje
+    4300028: Baderomsvindu_2etasje
+    4300030: Baderomsvindu_2etasje
+    4300032: Windows
+    4300034: Windows001
+    4300036: Windows002
+    4300038: Windows003
+    4300040: Windows004
+    4300042: Windows005
+    4300044: Windows006
+    4300046: Windows007
+    4300048: Windows008
+    4300050: Windows009
+    4300052: Windows010
+    4300054: Windows011
+    4300056: Windows012
+    4300058: Windows013
+    4300060: Windows014
+    4300062: Windows015
+    4300064: Altandor_1etasje
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

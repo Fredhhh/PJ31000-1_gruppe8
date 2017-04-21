@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class MatChanger : MonoBehaviour {
 
 	public GameObject library;
+    public string currentTag;
 
     GameObject changeableObject;
+    GameObject[] changeableObjects;
 
     // Use this for initialization
     void Start() {
@@ -18,11 +20,17 @@ public class MatChanger : MonoBehaviour {
     void Update() {
 		
 		changeableObject = library.GetComponent<MatLibrary>().activeObject;
+        currentTag = changeableObject.tag;
+        changeableObjects = GameObject.FindGameObjectsWithTag(currentTag);
     }
 
     public void ChangeTexture()
     {
-        changeableObject.GetComponent<Renderer>().material = gameObject.GetComponent<Renderer>().material;
+        foreach (GameObject obj in changeableObjects)
+        {
+            obj.GetComponent<Renderer>().material = gameObject.GetComponent<Renderer>().material;
+            //changeableObject.GetComponent<Renderer>().material = gameObject.GetComponent<Renderer>().material;
+        }
     }
 
 }
