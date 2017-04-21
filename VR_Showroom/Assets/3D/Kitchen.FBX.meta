@@ -6,10 +6,19 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Benkeplate_kitchen
+    100004: Kitchen
     400000: //RootNode
+    400002: Benkeplate_kitchen
+    400004: Kitchen
     2300000: //RootNode
+    2300002: Benkeplate_kitchen
+    2300004: Kitchen
     3300000: //RootNode
+    3300002: Benkeplate_kitchen
+    3300004: Kitchen
     4300000: Kitchen
+    4300002: Benkeplate_kitchen
   materials:
     importMaterials: 1
     materialName: 0
