@@ -40,7 +40,21 @@ public class MatLibrary : MonoBehaviour {
 
         for (i = 0; i < clickDetectorScript.Length; i++)
         {
-            if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].kitchenWhites == true)
+            if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].windowSills == true)
+            {
+                DeleteCurrentMat();
+
+                foreach (Material mat in windowSills)
+                {
+                    image.texture = mat.mainTexture;
+                    image.color = mat.color;
+                    material.material = mat;
+                    material.enabled = false;
+
+                    Instantiate(texturePF, content, false);
+                }
+            }
+            else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].kitchenWhites == true)
             {
                 DeleteCurrentMat();
 
@@ -54,20 +68,6 @@ public class MatLibrary : MonoBehaviour {
                     Instantiate(texturePF, content, false);
                 }  
             }
-            else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].windowSills == true)
-            {
-                DeleteCurrentMat();
-
-                foreach (Material mat in windowSills)
-                {
-                    image.texture = mat.mainTexture;
-                    image.color = mat.color;
-                    material.material = mat;
-                    material.enabled = false;
-
-                    Instantiate(texturePF, content, false);
-                }
-            }	     
 			else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].mainFloor == true)
 			{
 				DeleteCurrentMat();
@@ -109,7 +109,35 @@ public class MatLibrary : MonoBehaviour {
 
 					Instantiate(texturePF, content, false);
 				}
-			}	     
+			}
+            else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].bathroomFloor == true)
+            {
+                DeleteCurrentMat();
+
+                foreach (Material mat in bathroomTilesFloor)
+                {
+                    image.texture = mat.mainTexture;
+                    image.color = mat.color;
+                    material.material = mat;
+                    material.enabled = false;
+
+                    Instantiate(texturePF, content, false);
+                }
+            }
+            else if (clickDetectorScript[i].clicked == true && clickDetectorScript[i].bathroomWalls == true)
+            {
+                DeleteCurrentMat();
+
+                foreach (Material mat in bathroomTilesWall)
+                {
+                    image.texture = mat.mainTexture;
+                    image.color = mat.color;
+                    material.material = mat;
+                    material.enabled = false;
+
+                    Instantiate(texturePF, content, false);
+                }
+            }
 
 
 

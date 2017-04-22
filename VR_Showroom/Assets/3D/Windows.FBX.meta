@@ -174,6 +174,39 @@ ModelImporter:
     4300060: Windows014
     4300062: Windows015
     4300064: Altandor_1etasje
+    6400000: 1etasje_altandor_ramme
+    6400002: 1etasje_baderomsvindu
+    6400004: 1etasje_gang_vindu
+    6400006: 1etasje_kjokken_hjornevindu
+    6400008: 1etasje_kjokken_vindu
+    6400010: 1etasje_stue_altanvindu
+    6400012: 1etasje_stue_dobbeltvindu
+    6400014: 1etasje_stue_hjornevindu
+    6400016: 2etajse_soverom2_vindu
+    6400018: 2etasje_altandor_ramme
+    6400020: 2etasje_soverom1_vindu
+    6400022: 2etasje_soverom3_vindu
+    6400024: 2etasje_soverom4_vindu
+    6400026: Altandor_1etasje
+    6400028: Baderomsvindu_2etasje
+    6400030: Baderomsvindu_2etasje 1
+    6400032: Baderomsvindu_2etasje 2
+    6400034: Windows
+    6400036: Windows001
+    6400038: Windows002
+    6400040: Windows003
+    6400042: Windows004
+    6400044: Windows005
+    6400046: Windows006
+    6400048: Windows007
+    6400050: Windows008
+    6400052: Windows009
+    6400054: Windows010
+    6400056: Windows011
+    6400058: Windows012
+    6400060: Windows013
+    6400062: Windows014
+    6400064: Windows015
   materials:
     importMaterials: 1
     materialName: 0

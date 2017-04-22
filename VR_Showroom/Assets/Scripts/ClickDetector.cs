@@ -15,6 +15,8 @@ public class ClickDetector : MonoBehaviour {
 	public bool mainWalls;
 	public bool couch1;
     public bool windowSills;
+    public bool bathroomFloor;
+    public bool bathroomWalls;
 
     // Use this for initialization
     void Start() {
@@ -38,10 +40,6 @@ public class ClickDetector : MonoBehaviour {
         {
             kitchenWhites = true;
         }
-        else if (tag.Equals("KitchenTiles"))
-        {
-            kitchenTiles = true;
-        }
 		else if (tag.Equals("MainFloor"))
 		{
 			mainFloor = true;
@@ -57,6 +55,14 @@ public class ClickDetector : MonoBehaviour {
         else if (tag.Equals("WindowSill"))
         {
             windowSills = true;
+        }
+        else if (tag.Equals("BathroomFloor"))
+        {
+            bathroomFloor = true;
+        }
+        else if (tag.Equals("BathroomWalls"))
+        {
+            bathroomWalls = true;
         }
 
     }

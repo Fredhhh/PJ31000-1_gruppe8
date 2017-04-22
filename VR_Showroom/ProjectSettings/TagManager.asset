@@ -18,6 +18,9 @@ TagManager:
   - FxTemporaire
   - projectile
   - WindowSill
+  - LightSwitch
+  - BathroomFloor
+  - BathroomWall
   layers:
   - Default
   - TransparentFX
