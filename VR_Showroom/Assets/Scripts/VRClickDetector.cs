@@ -30,18 +30,18 @@ public class VRClickDetector : MonoBehaviour {
 	void Select(object sender, ClickedEventArgs e) 
 	{  
 		RaycastHit _hit; 
-		if (Physics.Raycast(transform.position, transform.forward * 10, out _hit, 20.0f, myLayerMask1)) 
-		{ 
-			_furniture = _hit.collider.gameObject.GetComponent<ClickDetector>();
-			_furniture.GetComponent<ClickDetector>().OnMouseDown();
-		} 
-
-		else if (Physics.Raycast(transform.position, transform.forward * 10, out _hit, 20.0f, myLayerMask2))
+		if (Physics.Raycast(transform.position, transform.forward * 10, out _hit, 20.0f, myLayerMask2))
 		{
 			_lightSwitch = _hit.collider.gameObject.GetComponent<Lightswitcher>();
 			_lightSwitch.GetComponent<Lightswitcher>().OnMouseDown();
 
 		}
+
+		else if (Physics.Raycast(transform.position, transform.forward * 10, out _hit, 20.0f, myLayerMask1)) 
+		{ 
+			_furniture = _hit.collider.gameObject.GetComponent<ClickDetector>();
+			_furniture.GetComponent<ClickDetector>().OnMouseDown();
+		} 
 
 	}
 		
