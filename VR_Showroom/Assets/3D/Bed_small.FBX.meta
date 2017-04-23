@@ -53,12 +53,12 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 0
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15
-    secondaryUVHardAngle: 165
+    secondaryUVHardAngle: 154
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
